@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rym's Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a1d3 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 5px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #ddd;
+            color: #333;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .main-content {
+            flex: 3;
+            padding: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            background: #f4f4f4;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .sidebar img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p, a {
+            color: #666;
+        }
+        .projects ul, .book-reviews ul, .todo ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .projects ul li, .book-reviews ul li, .todo ul li {
+            background: #eee;
+            margin: 5px 0;
+            padding: 10px;
+        }
+        .projects ul li a, .book-reviews ul li a, .todo ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        .projects ul li a:hover, .book-reviews ul li a:hover, .todo ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rym's Personal Website</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="https://github.com/rryyyymmmmmmmm">GitHub</a>
+    </nav>
+    <div class="container content">
+        <div class="main-content">
+            <h1>Greetings, human.</h1>
+            <p>My name is Rym Lemmouchi.</p>
+            <p>I am fond of embedded systems programming, operating systems design, robotics, and low level programming.</p>
+            <p>Programming languages I'm most familiar with: C/C++ and C#.</p>
+            
+            <h2>Currently working on:</h2>
+            <ul>
+                <li>A Masters in Networks, Cybersecurity and Embedded Systems.</li>
+                <li>1st Algerian Linux Competition, as a participant.</li>
+                <li>Learning Linux Kernel structure and Linux administration.</li>
+                <li>Following MIT's Electrical Engineering and Computer Science curriculum on MIT-OCW.</li>
+                <li>Learning Zig. <i>(Paused)</i> </li>
+                <li>Learning more mathematics for computer science. <i>(Paused)</i></li>
+            </ul>
+
+            <h2>Projects I want to work on:</h2>
+            <div class="projects">
+                <ul>
+                    <li> 7Zig : File compression software written in Zig </li>
+                    <li> A 3D horror/psychological/adventure retro-like game set in the 80's in a remote cold Island. </li>
+                    <li> Simple operating system from Scratch. </li>
+                    <li> Simple operating system from Scratch. </li>
+                </ul>
+            </div>
+
+        </div>
+        <aside class="sidebar">
+            <img src="./img/troll-image.png" alt="Lane's Image">
+        </aside>
+    </div>
+    <footer>
+        <p>Rym's Personal Website &copy; 2024</p>
+    </footer>
+</body>
+</html>
